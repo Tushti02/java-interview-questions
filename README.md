@@ -74,9 +74,9 @@ public class EvenNumbers {
 
 ---
 
-# 3 interviewquestions
+## 3. What will be the output of the following code snippets and why ?
 
-What will be the output of the following code snippets and why ?
+
 
 ```java
 
@@ -191,7 +191,7 @@ public class Program {
 ___
 
 
-# task
+## 4. Async programming in c#. What will be output and why?
 ```java
 public class Program
 {
@@ -237,7 +237,8 @@ public class Program
 
 ***
 
-
+## 5. Javascript question
+write the javascript function to be added under script tag. The function should be triggered on click of "Update Heading" button and should update the h1 tag's html from "Hello, World" to "How are you?"
 ```javascript
 <!DOCTYPE html>
 <html>
@@ -258,7 +259,7 @@ public class Program
 ```
 
 ***
-Write a recursive Java program to find the factorial of a number.
+## 6. Write a recursive Java program to find the factorial of a number.
 
 ```java
 public class Factorial {
@@ -280,7 +281,7 @@ public class Factorial {
 
 
 ***
-Write a Java program to check if a string is a palindrome.
+## 7. Write a Java program to check if a string is a palindrome.
 
 ```java
 public class PalindromeCheck {
@@ -311,7 +312,7 @@ public class PalindromeCheck {
 
 
 ***
-Write a Java program to check if a given number is prime.
+## 8. Write a Java program to check if a given number is prime.
 
 ```java
 public class PrimeNumber {
