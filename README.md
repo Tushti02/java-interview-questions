@@ -72,7 +72,7 @@ public class EvenNumbers {
 }
 ```
 
-############################################################################################################
+---
 
 # interviewquestions
 ```java
@@ -185,7 +185,7 @@ public class Program {
 }
 ```
 ###########################################################################################################
-
+___
 
 
 # task
@@ -232,9 +232,7 @@ public class Program
 }
 ```
 
-```
-###########################################################################################################
-
+***
 
 
 ```javascript
@@ -256,8 +254,10 @@ public class Program
 </html>
 ```
 
-#################################################################################################################
+***
 Write a recursive Java program to find the factorial of a number.
+Write a Java program to check if a string is a palindrome.
+Write a Java program to check if a given number is prime.
 
 
 
@@ -267,74 +267,3 @@ Write a recursive Java program to find the factorial of a number.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# answer
-```java
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace CodeReview
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            var evenNumbers = GetEvenNumbers(numbers);
-            Console.WriteLine("Even Numbers: " + string.Join(", ", evenNumbers));
-            Console.WriteLine("Sum of Even Numbers: " + SumEvenNumbers(numbers));
-        }
-
-        private static List<int> GetEvenNumbers(List<int> numbers)
-        {
-            // Using LINQ for simplicity and readability
-            return numbers.Where(IsEven).ToList();
-        }
-
-        private static int SumEvenNumbers(List<int> numbers)
-        {
-            // Using LINQ for simplicity and readability
-            return numbers.Where(IsEven).Sum();
-        }
-
-        // Extracting the even check logic into a separate method
-        private static bool IsEven(int number)
-        {
-            return number % 2 == 0;
-        }
-    }
-}
-
-```
