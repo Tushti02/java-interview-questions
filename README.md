@@ -43,7 +43,7 @@ public class Program {
 ```
 
 
-## 1. Get Even Numbers and Sum from a List (Answer)
+## 2. Get Even Numbers and Sum from a List (Answer or hint to previous question)
 
 Write a Java program that accepts a list of integers and returns the even numbers from the list. Also, return the sum of the even numbers.
 
@@ -74,7 +74,10 @@ public class EvenNumbers {
 
 ---
 
-# interviewquestions
+# 3 interviewquestions
+
+What will be the output of the following code snippets and why ?
+
 ```java
 
 public class Container
@@ -98,7 +101,7 @@ public class Program
     }
 }
 ```
-###########################################################################################################
+***
 ```java
 public class Program {
     public static void main(String[] args) {
@@ -114,7 +117,7 @@ public class Program {
     }
 }
 ```
-###########################################################################################################
+***
 
 
 
@@ -145,7 +148,7 @@ public class Program {
     }
 }
 ```
-###########################################################################################################
+***
 
 
 
@@ -168,7 +171,7 @@ public class Program {
 }
 
 ```
-###########################################################################################################
+***
 
 
 
