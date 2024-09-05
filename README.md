@@ -184,7 +184,7 @@ public class Program {
     }
 }
 ```
-###########################################################################################################
+
 ___
 
 
@@ -208,7 +208,7 @@ public class Program
 }
 
 ```
-###########################################################################################################
+___
 
 
 
@@ -256,8 +256,81 @@ public class Program
 
 ***
 Write a recursive Java program to find the factorial of a number.
+
+```java
+public class Factorial {
+    public static int factorial(int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println("Factorial of " + num + " is " + factorial(num)); // Outputs 120
+    }
+}
+```
+
+
+
+***
 Write a Java program to check if a string is a palindrome.
+
+```java
+public class PalindromeCheck {
+    public static boolean isPalindrome(String str) {
+        int i = 0, j = str.length() - 1;
+        while (i < j) {
+            if (str.charAt(i) != str.charAt(j)) {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        String str = "madam";
+        if (isPalindrome(str)) {
+            System.out.println(str + " is a palindrome");
+        } else {
+            System.out.println(str + " is not a palindrome");
+        }
+    }
+}
+
+```
+
+
+
+***
 Write a Java program to check if a given number is prime.
+
+```java
+public class PrimeNumber {
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int num = 29;
+        if (isPrime(num)) {
+            System.out.println(num + " is a prime number");
+        } else {
+            System.out.println(num + " is not a prime number");
+        }
+    }
+}
+
+```
 
 
 
